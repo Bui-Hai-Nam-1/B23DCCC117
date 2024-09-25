@@ -1,0 +1,67 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.history-container {
+  width: 300px;
+  margin: 20px auto;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.color-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.color-preview {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
